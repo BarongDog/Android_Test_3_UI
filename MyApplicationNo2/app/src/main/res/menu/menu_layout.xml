@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/item1"
+       android:title="字体大小">
+       <menu >
+           <group
+               android:id="@+id/group1"
+               android:checkableBehavior="single">
+           <item android:id="@+id/item2"
+               android:title="小" />
+           <item android:id="@+id/item3"
+               android:title="中"
+               android:checked="true"/>
+           <item android:id="@+id/item4"
+               android:title="大" />
+           </group>
+       </menu>
+   </item>
+    <item android:id="@+id/item5"
+           android:title="显示菜单项">
+    </item>
+    <item
+         android:id="@+id/item6"
+         android:title="更改字体颜色">
+        <menu>
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="single">
+            <item
+                android:id="@+id/item7"
+                android:title="红色" />
+            <item
+                android:id="@+id/item8"
+                android:title="黑色"
+                android:checked="true"
+                />
+           </group>
+        </menu>
+    </item>
+</menu>
