@@ -1,4 +1,4 @@
-# Android_Test_1_and_2
+# Android_Test_3_UI
 about android UI(SimpleAdapter,menu,alertdialog and so on).
 <h2 id="0"></h2> 
 
